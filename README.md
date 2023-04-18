@@ -1,6 +1,13 @@
 # dotfiles
 My dotfiles
 
+## Install Alacritty (MacOS)
+
+```sh
+brew install alacritty
+sudo xattr -d com.apple.quarantine /Applications/Alacritty.app                   
+```
+
 ## Alacritty themes
 
 Clone the alacritty-theme repository, or download the theme of your choice:
