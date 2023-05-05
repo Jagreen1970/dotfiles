@@ -25,3 +25,13 @@ colorscheme):
 import:
  - ~/.config/alacritty/themes/themes/{theme}.yaml
 ```
+
+## p10k for the looks
+
+https://github.com/SourceXSL/powerlevel10k
+
+## Fonts for p10k
+
+On Macs, sometimes the fonts get lost after updates... :-/
+
+To reinstall, see: https://github.com/SourceXSL/powerlevel10k/blob/master/font.md
