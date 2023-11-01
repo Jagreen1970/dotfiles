@@ -1,5 +1,5 @@
 require('custom.setup.options')
-require('custom.plugins')
+require('custom.setup.lazy')
 require('custom.setup.remap')
 
 -- The line beneath this is called `modeline`. See `:help modeline`
