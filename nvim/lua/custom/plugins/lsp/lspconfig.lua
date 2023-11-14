@@ -71,6 +71,9 @@ return {
 
         local util = require("lspconfig/util")
 
+        -- configure the popup menu border
+        vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, { border = "single" })
+
         -- configure bashls server
         lspconfig["bashls"].setup({
             capabilities = capabilities,
