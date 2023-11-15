@@ -29,15 +29,19 @@ end
 
 -- color scheme:
 config.color_scheme = "rose-pine-moon"
+
+-- font settings:
+config.adjust_window_size_when_changing_font_size = false
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 14
 
-config.adjust_window_size_when_changing_font_size = false
+-- tabs:
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
-config.window_background_opacity = 0.9
 
-config.use_dead_keys = false
+-- window settings:
+config.window_background_opacity = 0.9
+config.window_close_confirmation = "AlwaysPrompt"
 config.scrollback_lines = 5000
 
 config.window_frame = {
@@ -45,6 +49,7 @@ config.window_frame = {
 }
 
 -- key bindings
+config.use_dead_keys = false
 config.disable_default_key_bindings = true
 
 config.leader = { key = "b", mods = "CMD", timeout_milliseconds = 2000 }
