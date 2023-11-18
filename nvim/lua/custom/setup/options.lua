@@ -31,6 +31,8 @@ opt.termguicolors = true
 opt.background = "dark" -- colorschemes that can be light or dark will be made dark
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 
+opt.pumheight = 10 -- height of popup menu
+
 opt.isfname:append("@-@")
 
 opt.updatetime = 50
@@ -52,3 +54,10 @@ opt.backup = false
 -- undo
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 opt.undofile = true
+
+-- vim.g.netrw_banner = 0					-- gets rid of the annoying banner for netrw
+-- vim.g.netrw_browse_split=4				-- open in prior window
+-- vim.g.netrw_altv = 1					-- change from left splitting to right splitting
+-- vim.g.netrw_liststyle=3					-- tree style view in netrw
+--vim.cmd("let g:netrw_list_hide=netrw_gitignore#Hide()")
+opt.showtabline = 2 -- always show the tab line
