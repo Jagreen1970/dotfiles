@@ -1,6 +1,6 @@
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
-local act = wezterm.action
+-- local act = wezterm.action
 local mux = wezterm.mux
 
 -- Maximize window on gui_startup
@@ -53,7 +53,7 @@ config.window_frame = {
 config.use_dead_keys = false
 config.disable_default_key_bindings = true
 
-config.leader = { key = "b", mods = "CMD", timeout_milliseconds = 2000 }
+config.leader = { key = "a", mods = "CMD", timeout_milliseconds = 2000 }
 
 config.key_tables = require("key_tables")
 config.keys = require("custom_keys")
