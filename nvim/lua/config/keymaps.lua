@@ -30,3 +30,5 @@ keymap.set("n", "N", "Nzzzv", { desc = "previous result, keep cursor centered" }
 
 keymap.set("i", "<C-c>", "<Esc>")
 keymap.set("n", "Q", "<nop>")
+
+keymap.set("x", "<leader>p", [["_dP]], { desc = "paste (keep register)" })
