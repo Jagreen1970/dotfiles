@@ -1,6 +1,6 @@
 [user]
 	email = jagreen@gmx.de
-	name = Stefan
+	name = SST
 	username = stefan
 [core]
 	pager = delta
@@ -39,3 +39,8 @@
 	autoSetupRemote = true
 [init]
 	defaultBranch = main
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
