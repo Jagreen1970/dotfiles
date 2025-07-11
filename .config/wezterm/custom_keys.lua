@@ -60,13 +60,11 @@ return {
 	{ key = "T", mods = "CTRL|ALT", action = act.SpawnTab("CurrentPaneDomain") },
 	{ key = "Tab", mods = "CTRL", action = act.ActivateTabRelative(1) },
 	{ key = "Tab", mods = "CTRL|SHIFT", action = act.ActivateTabRelative(-1) },
-	{ key = "W", mods = "CTRL", action = act.CloseCurrentTab({ confirm = true }) },
-	{ key = "W", mods = "CTRL|ALT", action = act.CloseCurrentTab({ confirm = true }) },
 	{ key = "w", mods = "CTRL|ALT", action = act.CloseCurrentTab({ confirm = true }) },
 	{ key = "w", mods = "SUPER", action = act.CloseCurrentTab({ confirm = true }) },
 
 	-- Window commands
-	{ key = "Enter", mods = "ALT", action = act.ToggleFullScreen },
+	{ key = "Enter", mods = "CTRL|ALT", action = act.ToggleFullScreen },
 	{ key = "n", mods = "SUPER", action = act.SpawnWindow },
 
 	-- Pane commands (Horizontal and Vertical are somewhat misnamed, IMHO...)
