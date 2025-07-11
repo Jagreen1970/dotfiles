@@ -81,6 +81,7 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
   golang
+  python
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,6 +117,8 @@ source <(fzf --zsh)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias py3="python3"
+
 eval "$(direnv hook zsh)"
 
 source $HOME/.api-keys
