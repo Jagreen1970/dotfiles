@@ -237,10 +237,6 @@
     }
   },
   "shortcuts" : {
-    "center" : {
-      "keyCode" : 8,
-      "modifierFlags" : 786432
-    },
     "centerHalf" : {
       "keyCode" : 126,
       "modifierFlags" : 393216
@@ -249,29 +245,13 @@
       "keyCode" : 123,
       "modifierFlags" : 393216
     },
-    "larger" : {
-      "keyCode" : 24,
-      "modifierFlags" : 786432
-    },
     "lastFourth" : {
       "keyCode" : 124,
       "modifierFlags" : 393216
     },
     "maximize" : {
       "keyCode" : 36,
-      "modifierFlags" : 786432
-    },
-    "maximizeHeight" : {
-      "keyCode" : 126,
-      "modifierFlags" : 917504
-    },
-    "nextDisplay" : {
-      "keyCode" : 124,
-      "modifierFlags" : 1835008
-    },
-    "previousDisplay" : {
-      "keyCode" : 123,
-      "modifierFlags" : 1835008
+      "modifierFlags" : 393216
     },
     "reflowTodo" : {
       "keyCode" : 45,
@@ -279,16 +259,12 @@
     },
     "restore" : {
       "keyCode" : 51,
-      "modifierFlags" : 786432
-    },
-    "smaller" : {
-      "keyCode" : 27,
-      "modifierFlags" : 786432
+      "modifierFlags" : 393216
     },
     "toggleTodo" : {
       "keyCode" : 11,
       "modifierFlags" : 786432
     }
   },
-  "version" : "92"
+  "version" : "94"
 }
