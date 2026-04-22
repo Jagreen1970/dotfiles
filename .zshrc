@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export GOPATH=$HOME/Projects
 
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$GOPATH:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$GOPATH/bin/:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
