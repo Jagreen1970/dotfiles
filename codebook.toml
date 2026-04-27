@@ -1,0 +1,1 @@
+ignore_paths = [".config/nvim/lua/config/lazy.lua"]

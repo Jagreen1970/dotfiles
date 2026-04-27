@@ -121,6 +121,7 @@ alias py3="python3"
 
 eval "$(direnv hook zsh)"
 
-source $HOME/.api-keys
+# source $HOME/.api-keys
 
-
+# qmd semantic search collection (Phase 15 SEARCH-04)
+export QMD_WIKI_COLLECTION=wiki
