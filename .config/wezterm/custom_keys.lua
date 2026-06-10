@@ -40,21 +40,10 @@ return {
 			until_unknown = false,
 		}),
 	},
-	{
-		key = ",",
-		mods = "CMD",
-		action = act.SpawnCommandInNewTab({
-			cwd = os.getenv("WEZTERM_CONFIG_DIR"),
-			set_environment_variables = {
-				TERM = "screen-256color",
-			},
-			args = {
-				os.getenv("SHELL"),
-				"-c",
-				"nvim " .. wezterm.shell_quote_arg(wezterm.config_file),
-			},
-		}),
-	},
+
+	{ key = "LeftArrow", mods = "ALT", action = act({ SendString = "\x1bb" }) },
+	{ key = "RightArrow", mods = "ALT", action = act({ SendString = "\x1bf" }) },
+
 	-- Tab commands
 	{ key = "T", mods = "CTRL", action = act.SpawnTab("CurrentPaneDomain") },
 	{ key = "T", mods = "CTRL|ALT", action = act.SpawnTab("CurrentPaneDomain") },

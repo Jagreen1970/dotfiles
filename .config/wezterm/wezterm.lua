@@ -1,14 +1,7 @@
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
 -- local act = wezterm.action
-local mux = wezterm.mux
 
--- Maximize window on gui_startup
--- wezterm.on("gui-startup", function(cmd)
---     local tab, pane, window = mux.spawn_window(cmd or {})
---     window:gui_window():maximize()
--- end)
---
 -- Show which key table is active in the status area
 wezterm.on("update-right-status", function(window, pane)
 	local name = window:active_key_table()
@@ -28,7 +21,7 @@ if wezterm.config_builder then
 end
 
 -- color scheme:
-config.color_scheme = "rose-pine-moon"
+config.color_scheme = "Oceanic-Next"
 
 -- font settings:
 config.adjust_window_size_when_changing_font_size = false
